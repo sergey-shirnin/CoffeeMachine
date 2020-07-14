@@ -9,9 +9,9 @@ class CoffeeMachine:
         self.money = 550
 
         # recipes >>>      format >> water, milk, beans, cup, price
-        self.espresso =               [250,     0,   16,   1,    4]
-        self.latte =                  [350,    75,   20,   1,    7]
-        self.cappuccino =             [200,   100,   12,   1,    6]
+        self.espresso =              [250,     0,    16,   1,    4]
+        self.latte =                 [350,    75,    20,   1,    7]
+        self.cappuccino =            [200,   100,    12,   1,    6]
 
         self.prompts = {
 'main': '''
